@@ -1,0 +1,24 @@
+{
+  "name": "kaala.css",
+  "version": "1.0.0",
+  "description": "Kaala.CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunselvakumar/kaala.css.git"
+  },
+  "author": "Arun Selva Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunselvakumar/kaala.css/issues"
+  },
+  "homepage": "https://github.com/arunselvakumar/kaala.css#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
