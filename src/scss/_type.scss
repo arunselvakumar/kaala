@@ -38,3 +38,69 @@ h6, .h6 {
   font-size: $h6-font-size;
   line-height: $h6-line-height;
 }
+
+p + h1, p + .h1,
+p + h2, p + .h2,
+p + h3, p + .h3,
+p + h4, p + .h4,
+p + h5, p + .h5,
+p + h6, p + .h6 {
+  margin-top: $headings-groups-margin-top;
+}
+
+//
+// Displays
+//
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+  margin-bottom: $display-margin-bottom;
+}
+
+.display-1 {
+  font-size: $display1-font-size;
+  line-height: $display-line-height;
+}
+
+.display-2 {
+  font-size: $display2-font-size;
+  line-height: $display-line-height;
+}
+
+.display-3 {
+  font-size: $display3-font-size;
+  line-height: $display-line-height;
+}
+
+.display-4 {
+  font-size: $display4-font-size;
+  line-height: $display-line-height;
+}
+
+//
+// Paragraphs
+//
+p {
+  margin-bottom: $paragraphs-margin-bottom;
+}
+
+//
+// Horizontal Rules
+//
+hr {
+  margin-top: $horizontalrule-margin-top;
+  margin-bottom: $horizontalrule-margin-bottom;
+}
+
+//
+// BlockQuotes
+//
+blockquote, .blockquote {
+  margin-bottom: $blockquote-margin-bottom;
+  font-size: $blockquote-font-size;
+}
+
+.blockquote-footer {
+  font-size: $blockquote-footer-font-size;
+}
